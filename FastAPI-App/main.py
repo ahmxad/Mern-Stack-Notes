@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="My fastapi app")
+app = FastAPI()
 
 @app.get("/")
-def read_root():
-    return {"message": "Hello World"}
+def home():
+    return {"message": "Welcome to the Randomizer API"}
