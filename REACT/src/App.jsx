@@ -1,10 +1,10 @@
-import Main from "./01_project/components/Main";
-import Navigation from "./01_project/components/Navigation";
+import Navigation from "./02_project/components/Navigation";
+import Form from "./02_project/components/Form";
 export default function App(){
     return(
         <>
         <Navigation/>
-        <Main/>
+        <Form/>
         </>
     )
 }
